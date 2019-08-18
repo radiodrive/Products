@@ -3,6 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Products\Products.csproj", "{D79210A7-2427-462B-96BA-27317CAD2178}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{AAA970F7-C8DF-4EB1-8291-6981298AEF7F}"
+	ProjectSection(SolutionItems) = preProject
+		HomeTimeline.cs = HomeTimeline.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{EE19FE6B-89A6-49D7-9DAE-E686845EAB29}"
+	ProjectSection(SolutionItems) = preProject
+		BaseApiTests.cs = BaseApiTests.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Steps", "Steps", "{4B0D4FE3-CA51-4D73-8CD8-DC66C7E19C0A}"
+	ProjectSection(SolutionItems) = preProject
+		BaseApiScenariosSteps.cs = BaseApiScenariosSteps.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{4A430FDB-2526-42A7-9E17-F584A69005A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hooks", "Hooks", "{27196443-370B-4F9B-A424-AD7D8CE22E59}"
+	ProjectSection(SolutionItems) = preProject
+		FeatureHooks.cs = FeatureHooks.cs
+		ScenarioHooks.cs = ScenarioHooks.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{28DE0D11-C2A1-4377-90D3-94EC258863E8}"
+	ProjectSection(SolutionItems) = preProject
+		Settings.cs = Settings.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{F1883CB3-A606-43A5-9B91-96B592D409AC}"
+	ProjectSection(SolutionItems) = preProject
+		BaseApiScenarios.feature = BaseApiScenarios.feature
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +48,14 @@ Global
 		{D79210A7-2427-462B-96BA-27317CAD2178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79210A7-2427-462B-96BA-27317CAD2178}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79210A7-2427-462B-96BA-27317CAD2178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAA970F7-C8DF-4EB1-8291-6981298AEF7F} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
+		{EE19FE6B-89A6-49D7-9DAE-E686845EAB29} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
+		{4B0D4FE3-CA51-4D73-8CD8-DC66C7E19C0A} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
+		{4A430FDB-2526-42A7-9E17-F584A69005A4} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
+		{27196443-370B-4F9B-A424-AD7D8CE22E59} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
+		{28DE0D11-C2A1-4377-90D3-94EC258863E8} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
+		{F1883CB3-A606-43A5-9B91-96B592D409AC} = {AA3B56E7-7EE2-4F8B-A5D0-E4AE0BE9A01A}
 	EndGlobalSection
 EndGlobal
